@@ -1,7 +1,7 @@
-package models
+package model
 
 type LillyPad struct {
 	Id          int
 	IsThereFood bool
-	Neighbors   []*LillyPad
+	Paths       []*LillyPad
 }
